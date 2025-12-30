@@ -1,0 +1,42 @@
+## Step 3: Evaluation of SARS-CoV-2 Spike Variants on ACE2 Binding
+
+### 1. Methodology
+
+To evaluate the impact of critical epidemiological variants on the stability of the Spike-ACE2 complex, we performed in silico mutagenesis using FoldX (`BuildModel`). The interaction energy () for the Wild Type (WT) and three specific variants (N501Y, E484K, K417N) was calculated using the `AnalyseComplex` command. The structural template used was the repaired PDB **6M0J**.
+
+### 2. Results
+
+The following table summarizes the interaction energies obtained. A more negative value indicates a stronger binding affinity. The change in binding energy () is calculated as .
+
+| Variant | Mutation | Interaction Energy () [kcal/mol] |  vs WT [kcal/mol] | Prediction |
+| --- | --- | --- | --- | --- |
+| **Wild Type** | - | **-17.18** | 0.00 | Reference |
+| **Var 1** | **N501Y** | **-16.99** | +0.19 | Neutral / Slight Destabilization |
+| **Var 2** | **E484K** | **-17.52** | -0.34 | Slight Stabilization |
+| **Var 3** | **K417N** | **-15.11** | +2.07 | **Strong Destabilization** |
+
+### 3. Biological Interpretation
+
+#### **A. K417N (Beta Variant): Significant Loss of Affinity**
+
+The FoldX simulation predicts a sharp decrease in binding affinity ( kcal/mol).
+
+* **Structural Analysis:** In the Wild Type structure, the Lysine at position 417 (K417) forms a critical salt bridge with Aspartate 30 (D30) on the ACE2 receptor. The mutation to Asparagine (N), a neutral residue, disrupts this salt bridge, leading to the observed loss in interaction energy.
+* **Context:** This aligns with experimental literature suggesting that while K417N aids in immune escape, it incurs a fitness cost regarding ACE2 binding.
+
+#### **B. E484K (Beta/Gamma Variants): Enhanced Interaction**
+
+The model predicts a slight stabilization of the complex ( kcal/mol).
+
+* **Structural Analysis:** The substitution of Glutamic acid (negative charge) with Lysine (positive charge) at the interface alters the local electrostatic environment. Our results suggest this charge inversion is favorable for the interaction interface in this specific conformation, potentially contributing to the variant's fitness beyond immune evasion.
+
+#### **C. N501Y (Alpha/Omicron Variants): Discrepancy with Experimental Data**
+
+FoldX predicts a neutral or slightly destabilizing effect ( kcal/mol).
+
+* **Critical Discussion:** Experimental evidence widely confirms that N501Y significantly increases ACE2 binding affinity (approx. 10-fold) via pi-stacking interactions with ACE2-Y41 and hydrogen bonding.
+* **Methodological Limitation:** The discrepancy in our result likely arises from the limitations of the FoldX algorithm. FoldX primarily optimizes side chains on a fixed or semi-rigid backbone. The stabilizing effect of N501Y may require subtle backbone rearrangements to accommodate the bulky Tyrosine ring and optimize the pi-pi interaction, which the static `BuildModel` command may not have fully captured.
+
+### 4. Conclusion
+
+The computational analysis successfully identified **K417N** as a mutation that weakens the interface (loss of electrostatic interaction) and **E484K** as slightly stabilizing. However, the result for **N501Y** highlights the importance of combining rigid-body algorithms with molecular dynamics or flexible backbone protocols to capture complex interactions like induced fit or specific aromatic stacking.

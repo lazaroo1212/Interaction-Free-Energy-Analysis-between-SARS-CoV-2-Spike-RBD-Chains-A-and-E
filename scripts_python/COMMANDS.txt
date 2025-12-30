@@ -1,0 +1,7 @@
+awk '{print $2}' ./BioPhysics/Energy_analysis_project/NACCESS/NACCESS/6m0j_cmip_interaction.asa > number_identifier.txt
+
+awk 'NR==FNR {keep[$1]; next} ($2 in keep && $NF !~ /^[0-9]+(\.[0-9]+)?$/) {print $2 "\t" $NF}' number_identifier.txt 6m0j_cmip.pdbqt > atoms_identifier.txt
+
+
+awk 'NR==FNR {a[NR]=$2; next} {print $0 "\t" a[FNR]}' atoms_identifier.txt ./BioPhysics/Energy_analysis_project/NACCESS/NACCESS/6m0j_cmip_interaction.asa > ./BioPhysics/Energy_analysis_project/NACCESS/NACCESS/6m0j_cmip_interaction_atom_origen.asa
+

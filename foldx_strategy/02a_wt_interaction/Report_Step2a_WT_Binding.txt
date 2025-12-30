@@ -1,0 +1,15 @@
+Subject: Wild Type Interface Energy Analysis (Step 2a)
+
+1. Objective
+To quantify the binding affinity between the SARS-CoV-2 Spike RBD (Chain E) and the human ACE2 receptor (Chain A) in the native (Wild Type) state. This value serves as the baseline reference ($\Delta G_{WT}$) for all comparative mutational analyses.
+
+2. Methodology
+The `AnalyseComplex` command was executed on the repaired PDB structure. This command calculates the interaction energy by mathematically dissociating the complex and computing the difference in Gibbs Free Energy between the complex and the isolated subunits.
+
+3. Results
+- PDB Used: 6m0j_Repair.pdb
+- Interaction Energy ($\Delta G_{binding}$): -17.18 kcal/mol
+
+4. Conclusion
+The value of -17.18 kcal/mol represents a stable protein-protein interface. This strong affinity is driven by specific interactions (hydrogen bonds, salt bridges, and hydrophobic contacts) identified in the interface residue list.
+Any mutation that results in a more negative number than -17.18 will be considered stabilizing (higher affinity), while less negative (or positive) numbers indicate destabilization.

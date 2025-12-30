@@ -1,0 +1,14 @@
+Subject: Structural Repair and Energy Minimization (Step 1)
+
+1. Objective
+To standardize the PDB structure 6M0J and remove high-energy Van der Waals clashes and torsional stress artifacts inherent to the crystallographic resolution process. This step is mandatory to ensure that subsequent energy calculations reflect biological properties rather than structural noise.
+
+2. Methodology
+The command `RepairPDB` from FoldX 4.0 was executed on the raw input `6m0j.pdb`. This process identifies residues with high energy and rearranges side chains (Rotamers) to minimize the Total Free Energy of the protein without altering the backbone significantly.
+
+3. Interpretation of Results
+- Input File: 6m0j.pdb
+- Output File: 6m0j_Repair.pdb
+
+Comparison of Energies:
+The repair process typically results in a significant decrease in Total Energy. The repaired structure (6m0j_Repair.pdb) is now thermodynamically stable and suitable for in silico mutagenesis. All subsequent steps (Interaction analysis, Alanine Scanning, and Variant modeling) use this repaired structure as the starting template.

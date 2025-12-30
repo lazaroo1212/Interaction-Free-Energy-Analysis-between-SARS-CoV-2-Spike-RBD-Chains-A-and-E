@@ -1,0 +1,14 @@
+3. Results & Hotspot Identification
+The analysis of the `Dif_AlaScanning.fxout` file reveals several critical residues. A positive $\Delta\Delta G$ indicates that the original residue is essential for stability. We identified residues with $\Delta\Delta G > 2.5$ kcal/mol as critical hotspots.
+
+Top 5 Critical Residues identified:
+
+| Rank | Model ID | $\Delta\Delta G$ (kcal/mol) | Residue Identity | Biological Role |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | Repair_18 | **+5.60** | **Tyr 41 (Chain A - ACE2)** | Critical Hotspot (Key aromatic interaction) |
+| 2 | Repair_13 | **+4.66** | **Tyr 83 (Chain A - ACE2)** | Critical Hotspot |
+| 3 | Repair_37 | **+4.43** | **Arg 357 (Chain A - ACE2)**| Critical Hotspot (Electrostatic interaction) |
+| 4 | Repair_20 | **+4.35** | **Arg 403 (Chain E - Spike)**| Critical Hotspot (Salt bridge potential) |
+| 5 | Repair_10 | **+3.95** | **Tyr 505 (Chain E - Spike)**| Critical Hotspot (Famous RBD anchor residue) |
+
+*Other significant residues (>3.0 kcal/mol): Repair_19 (+3.57), Repair_3 (+3.49), Repair_24 (+3.46).*

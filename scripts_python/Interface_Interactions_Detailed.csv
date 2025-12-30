@@ -1,0 +1,17 @@
+Chain_1,Residue_1,Atom_1,Chain_2,Residue_2,Atom_2,Distance,Type
+A,GLN 24,OE1,E,ASN 487,ND2,2.56,Hydrogen Bond
+A,TYR 41,OH,E,THR 500,OG1,2.58,Hydrogen Bond
+A,LYS 353,O,E,GLY 502,N,2.78,Hydrogen Bond
+A,HIS 34,ND1,E,TYR 453,OH,2.8,Hydrogen Bond
+A,ASP 38,OD2,E,TYR 449,OH,2.83,Hydrogen Bond
+A,TYR 83,OH,E,ASN 487,OD1,2.84,Hydrogen Bond
+A,ASP 30,OD2,E,LYS 417,NZ,2.9,Salt Bridge
+A,LYS 353,NZ,E,GLY 496,O,2.91,Hydrogen Bond
+A,GLN 42,NE2,E,TYR 449,OH,2.95,Hydrogen Bond
+A,GLN 42,NE2,E,GLY 446,O,3.02,Hydrogen Bond
+A,GLU 37,OE2,E,TYR 505,OH,3.22,Hydrogen Bond
+A,TYR 41,OH,E,ASN 501,ND2,3.28,Hydrogen Bond
+A,ASP 355,OD2,E,THR 500,O,3.34,Hydrogen Bond
+A,TYR 83,CZ,E,PHE 486,CE1,3.43,Hydrophobic/VdW
+A,LEU 79,CD2,E,PHE 486,CD1,3.58,Hydrophobic/VdW
+A,MET 82,CB,E,PHE 486,CZ,3.67,Hydrophobic/VdW

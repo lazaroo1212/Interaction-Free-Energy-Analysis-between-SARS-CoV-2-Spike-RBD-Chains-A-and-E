@@ -1,0 +1,376 @@
+ ACCALL - Accessibility calculations
+ MAX RESIDUES     5000
+ MAX ATOMS/RES     100
+ PDB FILE INPUT 7V80_cmip.pdbqt
+ PROBE SIZE       1.40
+ Z-SLICE WIDTH   0.050
+ VDW RADII FILE vdw.radii
+ EXCL HETATOMS
+ EXCL HYDROGENS
+ EXCL WATERS
+ READVDW  32 residues input
+ UNKNOWN residue type.............> HIE A 519 
+ NON-STANDARD atom.| N  | in residue> HIE A 519 
+ ASSUMED vdw of  N   in HIE A 519  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE A 519 
+ ASSUMED vdw of  CA  in HIE A 519  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE A 519 
+ ASSUMED vdw of  C   in HIE A 519  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE A 519 
+ ASSUMED vdw of  O   in HIE A 519  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE A 519 
+ ASSUMED vdw of  CB  in HIE A 519  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE A 519 
+ ASSUMED vdw of  CG  in HIE A 519  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE A 519 
+ ASSUMED vdw of  ND1 in HIE A 519  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE A 519 
+ ASSUMED vdw of  CD2 in HIE A 519  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE A 519 
+ ASSUMED vdw of  CE1 in HIE A 519  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE A 519 
+ ASSUMED vdw of  NE2 in HIE A 519  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F  34 
+ NON-STANDARD atom.| N  | in residue> HIE F  34 
+ ASSUMED vdw of  N   in HIE F  34  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F  34 
+ ASSUMED vdw of  CA  in HIE F  34  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F  34 
+ ASSUMED vdw of  C   in HIE F  34  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F  34 
+ ASSUMED vdw of  O   in HIE F  34  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F  34 
+ ASSUMED vdw of  CB  in HIE F  34  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F  34 
+ ASSUMED vdw of  CG  in HIE F  34  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F  34 
+ ASSUMED vdw of  ND1 in HIE F  34  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F  34 
+ ASSUMED vdw of  CD2 in HIE F  34  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F  34 
+ ASSUMED vdw of  CE1 in HIE F  34  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F  34 
+ ASSUMED vdw of  NE2 in HIE F  34  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 195 
+ NON-STANDARD atom.| N  | in residue> HIE F 195 
+ ASSUMED vdw of  N   in HIE F 195  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 195 
+ ASSUMED vdw of  CA  in HIE F 195  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 195 
+ ASSUMED vdw of  C   in HIE F 195  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 195 
+ ASSUMED vdw of  O   in HIE F 195  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 195 
+ ASSUMED vdw of  CB  in HIE F 195  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 195 
+ ASSUMED vdw of  CG  in HIE F 195  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 195 
+ ASSUMED vdw of  ND1 in HIE F 195  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 195 
+ ASSUMED vdw of  CD2 in HIE F 195  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 195 
+ ASSUMED vdw of  CE1 in HIE F 195  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 195 
+ ASSUMED vdw of  NE2 in HIE F 195  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 228 
+ NON-STANDARD atom.| N  | in residue> HIE F 228 
+ ASSUMED vdw of  N   in HIE F 228  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 228 
+ ASSUMED vdw of  CA  in HIE F 228  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 228 
+ ASSUMED vdw of  C   in HIE F 228  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 228 
+ ASSUMED vdw of  O   in HIE F 228  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 228 
+ ASSUMED vdw of  CB  in HIE F 228  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 228 
+ ASSUMED vdw of  CG  in HIE F 228  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 228 
+ ASSUMED vdw of  ND1 in HIE F 228  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 228 
+ ASSUMED vdw of  CD2 in HIE F 228  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 228 
+ ASSUMED vdw of  CE1 in HIE F 228  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 228 
+ ASSUMED vdw of  NE2 in HIE F 228  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 239 
+ NON-STANDARD atom.| N  | in residue> HIE F 239 
+ ASSUMED vdw of  N   in HIE F 239  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 239 
+ ASSUMED vdw of  CA  in HIE F 239  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 239 
+ ASSUMED vdw of  C   in HIE F 239  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 239 
+ ASSUMED vdw of  O   in HIE F 239  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 239 
+ ASSUMED vdw of  CB  in HIE F 239  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 239 
+ ASSUMED vdw of  CG  in HIE F 239  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 239 
+ ASSUMED vdw of  ND1 in HIE F 239  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 239 
+ ASSUMED vdw of  CD2 in HIE F 239  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 239 
+ ASSUMED vdw of  CE1 in HIE F 239  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 239 
+ ASSUMED vdw of  NE2 in HIE F 239  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 241 
+ NON-STANDARD atom.| N  | in residue> HIE F 241 
+ ASSUMED vdw of  N   in HIE F 241  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 241 
+ ASSUMED vdw of  CA  in HIE F 241  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 241 
+ ASSUMED vdw of  C   in HIE F 241  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 241 
+ ASSUMED vdw of  O   in HIE F 241  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 241 
+ ASSUMED vdw of  CB  in HIE F 241  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 241 
+ ASSUMED vdw of  CG  in HIE F 241  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 241 
+ ASSUMED vdw of  ND1 in HIE F 241  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 241 
+ ASSUMED vdw of  CD2 in HIE F 241  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 241 
+ ASSUMED vdw of  CE1 in HIE F 241  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 241 
+ ASSUMED vdw of  NE2 in HIE F 241  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 265 
+ NON-STANDARD atom.| N  | in residue> HIE F 265 
+ ASSUMED vdw of  N   in HIE F 265  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 265 
+ ASSUMED vdw of  CA  in HIE F 265  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 265 
+ ASSUMED vdw of  C   in HIE F 265  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 265 
+ ASSUMED vdw of  O   in HIE F 265  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 265 
+ ASSUMED vdw of  CB  in HIE F 265  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 265 
+ ASSUMED vdw of  CG  in HIE F 265  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 265 
+ ASSUMED vdw of  ND1 in HIE F 265  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 265 
+ ASSUMED vdw of  CD2 in HIE F 265  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 265 
+ ASSUMED vdw of  CE1 in HIE F 265  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 265 
+ ASSUMED vdw of  NE2 in HIE F 265  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 345 
+ NON-STANDARD atom.| N  | in residue> HIE F 345 
+ ASSUMED vdw of  N   in HIE F 345  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 345 
+ ASSUMED vdw of  CA  in HIE F 345  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 345 
+ ASSUMED vdw of  C   in HIE F 345  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 345 
+ ASSUMED vdw of  O   in HIE F 345  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 345 
+ ASSUMED vdw of  CB  in HIE F 345  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 345 
+ ASSUMED vdw of  CG  in HIE F 345  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 345 
+ ASSUMED vdw of  ND1 in HIE F 345  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 345 
+ ASSUMED vdw of  CD2 in HIE F 345  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 345 
+ ASSUMED vdw of  CE1 in HIE F 345  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 345 
+ ASSUMED vdw of  NE2 in HIE F 345  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 373 
+ NON-STANDARD atom.| N  | in residue> HIE F 373 
+ ASSUMED vdw of  N   in HIE F 373  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 373 
+ ASSUMED vdw of  CA  in HIE F 373  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 373 
+ ASSUMED vdw of  C   in HIE F 373  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 373 
+ ASSUMED vdw of  O   in HIE F 373  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 373 
+ ASSUMED vdw of  CB  in HIE F 373  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 373 
+ ASSUMED vdw of  CG  in HIE F 373  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 373 
+ ASSUMED vdw of  ND1 in HIE F 373  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 373 
+ ASSUMED vdw of  CD2 in HIE F 373  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 373 
+ ASSUMED vdw of  CE1 in HIE F 373  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 373 
+ ASSUMED vdw of  NE2 in HIE F 373  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 374 
+ NON-STANDARD atom.| N  | in residue> HIE F 374 
+ ASSUMED vdw of  N   in HIE F 374  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 374 
+ ASSUMED vdw of  CA  in HIE F 374  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 374 
+ ASSUMED vdw of  C   in HIE F 374  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 374 
+ ASSUMED vdw of  O   in HIE F 374  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 374 
+ ASSUMED vdw of  CB  in HIE F 374  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 374 
+ ASSUMED vdw of  CG  in HIE F 374  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 374 
+ ASSUMED vdw of  ND1 in HIE F 374  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 374 
+ ASSUMED vdw of  CD2 in HIE F 374  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 374 
+ ASSUMED vdw of  CE1 in HIE F 374  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 374 
+ ASSUMED vdw of  NE2 in HIE F 374  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 378 
+ NON-STANDARD atom.| N  | in residue> HIE F 378 
+ ASSUMED vdw of  N   in HIE F 378  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 378 
+ ASSUMED vdw of  CA  in HIE F 378  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 378 
+ ASSUMED vdw of  C   in HIE F 378  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 378 
+ ASSUMED vdw of  O   in HIE F 378  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 378 
+ ASSUMED vdw of  CB  in HIE F 378  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 378 
+ ASSUMED vdw of  CG  in HIE F 378  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 378 
+ ASSUMED vdw of  ND1 in HIE F 378  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 378 
+ ASSUMED vdw of  CD2 in HIE F 378  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 378 
+ ASSUMED vdw of  CE1 in HIE F 378  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 378 
+ ASSUMED vdw of  NE2 in HIE F 378  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 401 
+ NON-STANDARD atom.| N  | in residue> HIE F 401 
+ ASSUMED vdw of  N   in HIE F 401  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 401 
+ ASSUMED vdw of  CA  in HIE F 401  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 401 
+ ASSUMED vdw of  C   in HIE F 401  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 401 
+ ASSUMED vdw of  O   in HIE F 401  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 401 
+ ASSUMED vdw of  CB  in HIE F 401  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 401 
+ ASSUMED vdw of  CG  in HIE F 401  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 401 
+ ASSUMED vdw of  ND1 in HIE F 401  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 401 
+ ASSUMED vdw of  CD2 in HIE F 401  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 401 
+ ASSUMED vdw of  CE1 in HIE F 401  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 401 
+ ASSUMED vdw of  NE2 in HIE F 401  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 417 
+ NON-STANDARD atom.| N  | in residue> HIE F 417 
+ ASSUMED vdw of  N   in HIE F 417  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 417 
+ ASSUMED vdw of  CA  in HIE F 417  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 417 
+ ASSUMED vdw of  C   in HIE F 417  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 417 
+ ASSUMED vdw of  O   in HIE F 417  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 417 
+ ASSUMED vdw of  CB  in HIE F 417  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 417 
+ ASSUMED vdw of  CG  in HIE F 417  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 417 
+ ASSUMED vdw of  ND1 in HIE F 417  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 417 
+ ASSUMED vdw of  CD2 in HIE F 417  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 417 
+ ASSUMED vdw of  CE1 in HIE F 417  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 417 
+ ASSUMED vdw of  NE2 in HIE F 417  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 493 
+ NON-STANDARD atom.| N  | in residue> HIE F 493 
+ ASSUMED vdw of  N   in HIE F 493  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 493 
+ ASSUMED vdw of  CA  in HIE F 493  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 493 
+ ASSUMED vdw of  C   in HIE F 493  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 493 
+ ASSUMED vdw of  O   in HIE F 493  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 493 
+ ASSUMED vdw of  CB  in HIE F 493  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 493 
+ ASSUMED vdw of  CG  in HIE F 493  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 493 
+ ASSUMED vdw of  ND1 in HIE F 493  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 493 
+ ASSUMED vdw of  CD2 in HIE F 493  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 493 
+ ASSUMED vdw of  CE1 in HIE F 493  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 493 
+ ASSUMED vdw of  NE2 in HIE F 493  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 505 
+ NON-STANDARD atom.| N  | in residue> HIE F 505 
+ ASSUMED vdw of  N   in HIE F 505  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 505 
+ ASSUMED vdw of  CA  in HIE F 505  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 505 
+ ASSUMED vdw of  C   in HIE F 505  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 505 
+ ASSUMED vdw of  O   in HIE F 505  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 505 
+ ASSUMED vdw of  CB  in HIE F 505  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 505 
+ ASSUMED vdw of  CG  in HIE F 505  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 505 
+ ASSUMED vdw of  ND1 in HIE F 505  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 505 
+ ASSUMED vdw of  CD2 in HIE F 505  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 505 
+ ASSUMED vdw of  CE1 in HIE F 505  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 505 
+ ASSUMED vdw of  NE2 in HIE F 505  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 535 
+ NON-STANDARD atom.| N  | in residue> HIE F 535 
+ ASSUMED vdw of  N   in HIE F 535  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 535 
+ ASSUMED vdw of  CA  in HIE F 535  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 535 
+ ASSUMED vdw of  C   in HIE F 535  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 535 
+ ASSUMED vdw of  O   in HIE F 535  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 535 
+ ASSUMED vdw of  CB  in HIE F 535  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 535 
+ ASSUMED vdw of  CG  in HIE F 535  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 535 
+ ASSUMED vdw of  ND1 in HIE F 535  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 535 
+ ASSUMED vdw of  CD2 in HIE F 535  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 535 
+ ASSUMED vdw of  CE1 in HIE F 535  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 535 
+ ASSUMED vdw of  NE2 in HIE F 535  =  1.65 (same as GLN)
+ UNKNOWN residue type.............> HIE F 540 
+ NON-STANDARD atom.| N  | in residue> HIE F 540 
+ ASSUMED vdw of  N   in HIE F 540  =  1.65 (same as ALA)
+ NON-STANDARD atom.| CA | in residue> HIE F 540 
+ ASSUMED vdw of  CA  in HIE F 540  =  1.87 (same as ALA)
+ NON-STANDARD atom.| C  | in residue> HIE F 540 
+ ASSUMED vdw of  C   in HIE F 540  =  1.76 (same as ALA)
+ NON-STANDARD atom.| O  | in residue> HIE F 540 
+ ASSUMED vdw of  O   in HIE F 540  =  1.40 (same as ALA)
+ NON-STANDARD atom.| CB | in residue> HIE F 540 
+ ASSUMED vdw of  CB  in HIE F 540  =  1.87 (same as ALA)
+ NON-STANDARD atom.| CG | in residue> HIE F 540 
+ ASSUMED vdw of  CG  in HIE F 540  =  1.87 (same as ARG)
+ NON-STANDARD atom.| ND1| in residue> HIE F 540 
+ ASSUMED vdw of  ND1 in HIE F 540  =  1.65 (same as HIS)
+ NON-STANDARD atom.| CD2| in residue> HIE F 540 
+ ASSUMED vdw of  CD2 in HIE F 540  =  1.76 (same as HIS)
+ NON-STANDARD atom.| CE1| in residue> HIE F 540 
+ ASSUMED vdw of  CE1 in HIE F 540  =  1.76 (same as HIS)
+ NON-STANDARD atom.| NE2| in residue> HIE F 540 
+ ASSUMED vdw of  NE2 in HIE F 540  =  1.65 (same as GLN)
+ ADDED VDW RADII
+ CHAINS       2
+ RESIDUES   797
+ ATOMS     7088
+ SOLVA: PROGRAM ENDS CORRECTLY
+ CALCULATED ATOMIC ACCESSIBILITES
+ RELATIVE (STANDARD) ACCESSIBILITIES READFOR  20 AMINO ACIDS
+ SUMMED ACCESSIBILITIES OVER RESIDUES

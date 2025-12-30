@@ -1,0 +1,66 @@
+================================================================================
+FINAL REPORT: In Silico Energy Analysis of SARS-CoV-2 Spike (RBD) - ACE2 Complex
+Methodology: FoldX Force Field (Structure-based Energy Calculation)
+Date: December 2025
+================================================================================
+
+1. EXECUTIVE SUMMARY
+--------------------
+This study performed a computational energetic analysis of the interaction between the SARS-CoV-2 Spike Receptor Binding Domain (RBD, Chain E) and the human ACE2 receptor (Chain A). Using the FoldX algorithm, we repaired the crystal structure (PDB: 6M0J), determined the baseline binding affinity, mapped critical interface residues (hotspots), and evaluated the impact of three epidemiological variants (N501Y, E484K, K417N).
+
+2. STRUCTURAL PREPARATION (Step 1)
+----------------------------------
+* Objective: To remove steric clashes and minimize Van der Waals repulsions in the crystal structure.
+* Input: 6m0j.pdb (Raw PDB)
+* Command: RepairPDB
+* Outcome: The structure was successfully minimized (6m0j_Repair.pdb). This step ensures that subsequent energy calculations reflect biological interactions rather than crystallographic artifacts.
+
+3. BASELINE INTERACTION ANALYSIS (Step 2a)
+------------------------------------------
+* Objective: To quantify the stability of the Wild Type (WT) complex.
+* Command: AnalyseComplex
+* Result (Delta G Binding): -17.18 kcal/mol
+* Interpretation: The WT complex exhibits high stability. This value serves as the reference point (0.0 kcal/mol) for all mutational comparisons.
+
+4. INTERFACE MAPPING & HOTSPOT IDENTIFICATION (Step 2b)
+-------------------------------------------------------
+* Objective: To identify key residues contributing most to the binding energy via Computational Alanine Scanning.
+* Methodology: Mutating interface residues to Alanine and calculating DDG (Delta Delta G).
+* Criteria: DDG > 1.5 kcal/mol indicates a "Hotspot".
+
+* Top 5 Critical Residues Identified:
+  -----------------------------------------------------------------------
+  | Rank | Model ID  | Residue Identity           | DDG (kcal/mol)    |
+  |------|-----------|----------------------------|-------------------|
+  |  1   | Repair_18 | Tyr 41 (Chain A - ACE2)    | +5.60 (Critical)  |
+  |  2   | Repair_13 | Tyr 83 (Chain A - ACE2)    | +4.66 (Critical)  |
+  |  3   | Repair_37 | Arg 357 (Chain A - ACE2)   | +4.43 (Critical)  |
+  |  4   | Repair_20 | Arg 403 (Chain E - Spike)  | +4.35 (Critical)  |
+  |  5   | Repair_10 | Tyr 505 (Chain E - Spike)  | +3.95 (Critical)  |
+  -----------------------------------------------------------------------
+
+* Biological Insight: The interface is dominated by aromatic (Tyrosine) and electrostatic (Arginine) interactions. Tyr 505 on the Spike protein is identified as a crucial anchor for cell entry.
+
+5. VARIANT ANALYSIS (Step 3)
+----------------------------
+* Objective: To predict the impact of specific mutations found in Alpha, Beta, and Gamma variants.
+* Command: BuildModel + AnalyseComplex
+
+* Results Table:
+  --------------------------------------------------------------------------
+  | Variant | Mutation | Binding Energy (DG) | DDG vs WT | Effect        |
+  |---------|----------|---------------------|-----------|---------------|
+  | WT      | -        | -17.18 kcal/mol     |  0.00     | Reference     |
+  | Var 1   | N501Y    | -16.99 kcal/mol     | +0.19     | Neutral       |
+  | Var 2   | E484K    | -17.52 kcal/mol     | -0.34     | Stabilizing   |
+  | Var 3   | K417N    | -15.11 kcal/mol     | +2.07     | Destabilizing |
+  --------------------------------------------------------------------------
+
+* Interpretation:
+  - K417N: Causes a significant loss of affinity (+2.07 kcal/mol) by disrupting a salt bridge with ACE2-D30. This suggests K417N is selected primarily for immune escape, despite the cost to ACE2 binding.
+  - E484K: Slightly improves affinity (-0.34 kcal/mol) through electrostatic optimization.
+  - N501Y: Predicted as neutral in rigid-body docking, though experimental data suggests stabilization via pi-stacking (a known limitation of static FoldX rotamers).
+
+6. CONCLUSION
+-------------
+The FoldX pipeline successfully identified the energetic determinants of the Spike-ACE2 interface. The analysis confirms that the interaction relies heavily on a few critical hotspots (Tyrosines and Arginines). Among the tested variants, K417N was identified as structurally deleterious to binding, while E484K was predicted to enhance the interaction.
